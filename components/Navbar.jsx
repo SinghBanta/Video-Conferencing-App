@@ -20,7 +20,7 @@ const Navbar = () => {
         
       </div>
       <div className="w-20 h-5 flex mt-3 ">
-            <a href="https://github.com/SinghBanta" target="_blank">
+            <a href="https://github.com/SinghBanta/Video-Conferencing-App" target="_blank">
               <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIqVLx1eZWBsj68Zlp7BhY3Y_yRy_YOKqMFw&s" alt="Github" width={300} height={300} />
             </a>
           </div>
