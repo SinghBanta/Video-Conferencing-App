@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Navbar = () => {
   return (
-    <nav className="flex justify-between ">
+    <nav className="flex justify-between w-full">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between p-4  ">
         <a href="../" className="flex items-center space-x-3 rtl:space-x-reverse ">
           <Image

@@ -19,16 +19,18 @@ const HomePage = () => {
     <div>
       <Navbar />
 
-      <div className="flex items-center justify-between w-full p-20 gap-10 ml-5 mt-6">
+      <div className="flex max-lg:flex-col items-center justify-between w-full p-5 sm:p-20 gap-10 mt-6">
         <div className="w-full ">
-          <h1 className=" text-5xl h-30   text-[#1f1f1f]  ">
-            Video calls and meetings for everyone.
+          <h1 className="max-sm:text-3xl text-5xl h-30 text-[#1f1f1f] max-sm:text-center font-medium">
+            Video calls and meetings <br className="sm:hidden"/> for everyone.
+
             <br />
-            <span className="text-[#444746] text-3xl  "> Connect, collaborate and celebrate from anywhere with Neo Meet
+            <span className="text-[#444746] text-3xl max-sm:text-xl font-normal "> Connect, collaborate and celebrate from anywhere with Neo Meet
             </span>
           </h1>
-          <div className="mt-10 flex gap-5 ">
-            <div className="flex items-center w-fit border border-gray-600 rounded p-1 px-2 ">
+
+          <div className="mt-10 flex gap-5 max-sm:flex-col">
+            <div className="flex items-center sm:w-fit border border-blue-600 rounded p-1 px-2 w-full focus-within:ring-2 ring-blue-600 font-mono">
               <Image src="/file.svg" alt="..." width={20} height={20} />
               <Input setRoomID={setRoomID}/>
             </div>
@@ -41,10 +43,11 @@ const HomePage = () => {
             </button>
             
           </div>
+
           <hr className="w-full mt-9 border-gray-600" />
         </div>
 
-        <div className="h-56 sm:h-64 xl:h-80 2xl:h-96 w-full ml-28">
+        <div className="h-56 sm:h-64 xl:h-80 2xl:h-96 w-full">
           <CustomCarousel />
         </div>
       </div>
