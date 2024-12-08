@@ -1,9 +1,15 @@
 'use client';
 import React from 'react';
 import { ZegoUIKitPrebuilt } from '@zegocloud/zego-uikit-prebuilt';
+import Navbar from '@/components/Navbar';
+
+
+
 
 const RoomPage = ({ params }) => {
   const roomID = React.use(params).roomID;
+
+
 
   const myMeeting=async(element)=>{
     const appID = +process.env.NEXT_PUBLIC_APPID;
@@ -31,7 +37,12 @@ const RoomPage = ({ params }) => {
   })
 }
 
-  return <div ref={myMeeting} className="w-full h-screen">RoomPage {roomID}</div>;
+  return (
+    <>
+      <Navbar />
+      <div ref={myMeeting} className="w-full h-screen">RoomPage {roomID}</div>
+    </>
+  );
 };
 
 export default RoomPage;
