@@ -23,7 +23,7 @@ const RoomPage = ({ params }) => {
     zp.joinRoom({
       container: element,
       sharedLinks: [
-        {
+        {  
           name: "Share this link to connect with others",
           url:
             window.location.protocol +
