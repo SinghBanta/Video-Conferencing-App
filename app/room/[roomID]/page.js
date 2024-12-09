@@ -16,7 +16,7 @@ const RoomPage = ({ params }) => {
       serverSecret,
       roomID,
       Date.now().toString(),
-      "Banta"
+      "Host"
     );
     const zp = ZegoUIKitPrebuilt.create(kitToken);
 
@@ -24,7 +24,7 @@ const RoomPage = ({ params }) => {
       container: element,
       sharedLinks: [
         {
-          name: "Personal link",
+          name: "Share this link to connect with others",
           url:
             window.location.protocol +
             "//" +

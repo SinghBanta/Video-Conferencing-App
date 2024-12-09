@@ -21,7 +21,7 @@ const HomePage = () => {
 
       <div className="flex max-lg:flex-col items-center justify-between w-full p-5 sm:p-20 gap-10 mt-6">
         <div className="w-full ">
-          <h1 className="max-sm:text-3xl text-5xl h-30 text-[#1f1f1f] max-sm:text-center font-medium">
+          <h1 className="max-sm:text-3xl text-5xl h-30 text-[#1f1f1f] max-sm:text-center font-medium">  
             Video calls and meetings <br className="sm:hidden"/> for everyone.
 
             <br />
