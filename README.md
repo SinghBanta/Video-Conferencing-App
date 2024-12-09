@@ -11,14 +11,15 @@
 
 ## Getting Started
 
-First, run the development server:
+First,install all necessary modules
+```bash
+
+npm install
+```
+Second, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+```
 
+I have add video Conferencing in this NextJs Project(Neo Meet) through Zegocloud,can get APIs there.
