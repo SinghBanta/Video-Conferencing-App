@@ -22,4 +22,5 @@ Second, run the development server:
 npm run dev
 ```
 
-I have add video Conferencing in this NextJs Project(Neo Meet) through Zegocloud,can get APIs there.
+
+I have add Video Conferencing in this NextJs Project(Neo Meet) through Zegocloud,can get APIs there.
