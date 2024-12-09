@@ -11,7 +11,9 @@
 
 ## Getting Started
 
-First,install all necessary modules
+To run on localhost
+
+First, install all necessary modules
 ```bash
 
 npm install
