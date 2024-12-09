@@ -2,9 +2,7 @@
 
 ![image](https://github.com/user-attachments/assets/6cbde5ea-7ec2-4096-af47-ef54b5d5d798)
 
-![image](https://github.com/user-attachments/assets/9a44a629-f42a-450a-98ba-98587e429845)
-
-
+![image](https://github.com/user-attachments/assets/903cf552-d652-4f9c-bab7-02c10321c359)
 
 
 ## Getting Started
